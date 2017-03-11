@@ -1,0 +1,29 @@
+body {
+	background-color: #24292e;
+	color: #fff;
+}
+.container-custom {
+	background-color: #F8F8F8;
+	color: #000;
+}
+/*MENU HEADER*/
+#bs-example-navbar-collapse-1 {
+	float: right;
+}
+.navbar-header span {
+	color: #D4DF21;
+	font-weight: 6000;
+}
+
+/*CAPA SITE*/
+.bg {
+	background: url(../img/static6.jpg) center fixed;
+	height: 520px;
+}
+.header {
+	padding-top: 90px;
+    padding-bottom: 50px;
+    background: linear-gradient(129deg, rgba(150,150,150,0.6),rgba(0,0,0,0.6));
+    min-height: 520px;
+    position: relative;
+}
