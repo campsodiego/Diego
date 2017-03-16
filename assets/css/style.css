@@ -1,9 +1,9 @@
 body {
-	background-color: #24292e;
+	background-color: #DCDCDC;
 	color: #fff;
 }
 .container-custom {
-	background-color: #F8F8F8;
+	background-color: #24292e;
 	color: #000;
 }
 /*MENU HEADER*/
@@ -14,11 +14,23 @@ body {
 	color: #D4DF21;
 	font-weight: 6000;
 }
+.navbar-default-custom {
+	background-color: #24292E;
+}
+.navbar-default-custom .active a {
+	background-color: #282D33;
+}
 
 /*CAPA SITE*/
 .bg {
 	background: url(../img/static6.jpg) center fixed;
 	height: 520px;
+}
+.bg img{
+	width: 120px;
+	height: 120px;
+	border: 4px solid #D4DF21;
+	margin: 5% 45%;
 }
 .header {
 	padding-top: 90px;
@@ -26,4 +38,16 @@ body {
     background: linear-gradient(129deg, rgba(150,150,150,0.6),rgba(0,0,0,0.6));
     min-height: 520px;
     position: relative;
+}
+/*CONTENT PRINCIPAL*/
+.main-content {
+	background-color: #DCDCDC;
+}
+.container-custom2 {
+	background-color: #F8F8FF;
+	height: 1000px;
+	margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #333;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
